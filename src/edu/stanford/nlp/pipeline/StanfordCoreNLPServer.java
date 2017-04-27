@@ -79,7 +79,7 @@ public class StanfordCoreNLPServer implements Runnable {
 
   protected final String shutdownKey;
 
-  public static int MAX_CHAR_LENGTH = 100000;
+  public static int MAX_CHAR_LENGTH = 1000000;
   public final Properties defaultProps;
 
   /**
